@@ -1,6 +1,13 @@
 # Shaikmay
 # Power BI End-to-End Churn Analysis | SQL + Machine Learning
 
+## Power BI Dashboard & Code
+- Power BI Report: Screenshot
+![Churn Analysis Summary_1](https://github.com/user-attachments/assets/6a693308-3202-4598-9272-b8fa56bcf756)
+![Churn Analysis Prediction_2](https://github.com/user-attachments/assets/7beef630-e2f8-4ef9-a2ca-e084234c7cee)
+
+
+
 ## Project Overview
 This project focuses on churn analysis for a telecom company using a full BI + ML pipeline. It combines SQL data processing, Power BI dashboarding, and Python machine learning to predict customer churn and identify business improvement opportunities.
 
@@ -342,10 +349,6 @@ Create View vw_ChurnData as
 
 
 
-## Power BI Dashboard & Code
-- Power BI Report: Screenshot
-![Churn Analysis Summary_1](https://github.com/user-attachments/assets/6a693308-3202-4598-9272-b8fa56bcf756)
-![Churn Analysis Prediction_2](https://github.com/user-attachments/assets/7beef630-e2f8-4ef9-a2ca-e084234c7cee)
 
 - Python & SQL scripts:
 [SQL Queries.docx](https://github.com/user-attachments/files/20120916/SQL.Queries.docx)
