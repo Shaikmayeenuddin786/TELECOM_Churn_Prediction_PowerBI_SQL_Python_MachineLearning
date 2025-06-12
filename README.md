@@ -73,12 +73,11 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 ##  Sample Dashboard Snapshots
 
 ###  Summary Dashboard
-![Churn Summary Dashboard](Images/Churn_Analysis_Summary.jpg)
+- Power BI Report: Screenshot
+![Churn Analysis Summary_1](https://github.com/user-attachments/assets/6a693308-3202-4598-9272-b8fa56bcf756)
+![Churn Analysis Prediction_2](https://github.com/user-attachments/assets/7beef630-e2f8-4ef9-a2ca-e084234c7cee)
 
-###  Prediction Dashboard
-![Churn Prediction Dashboard](Images/Churn_Analysis_Prediction.jpg)
 
----
 
 ## Project Structure
 
