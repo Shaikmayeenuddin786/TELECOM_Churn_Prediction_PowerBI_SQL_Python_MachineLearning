@@ -25,15 +25,13 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 
 ---
 
-## Data Summary
+## Executive Summary and Project Workflow
 
 - Total Records: **6,418 Customers**
 - Fields Included: Demographics, Services, Contract, Charges, Usage Patterns, etc.
 - Target Variable: `Churn` (Yes/No)
 
 ---
-
-## Project Workflow
 
 ### 1. **Data Cleaning & Preparation (SQL Server)**
 - Cleaned and filtered the raw telecom dataset using SQL queries.
@@ -59,7 +57,7 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 
 ---
 
-## Key Insights
+## Insights Deep Dive
 
 - **27% churn rate** across the customer base.
 - Customers aged **50+** and those with **month-to-month contracts** are at higher risk.
