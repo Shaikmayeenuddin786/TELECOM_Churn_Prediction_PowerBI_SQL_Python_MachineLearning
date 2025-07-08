@@ -75,7 +75,7 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 ![Churn Analysis Summary_1](https://github.com/user-attachments/assets/6a693308-3202-4598-9272-b8fa56bcf756)
 ![Churn Analysis Prediction_2](https://github.com/user-attachments/assets/7beef630-e2f8-4ef9-a2ca-e084234c7cee)
 
-### Table Mapping
+### Relationship Table Mapping
 ![Mapping_Tables](https://github.com/user-attachments/assets/1baf0c78-1b38-4af8-8342-fa5e1b82e84b)
 
 ---
