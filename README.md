@@ -98,10 +98,10 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 
 # Recommended Solutions to Reduce Churn:
 
-- Promote Long-Term Contracts : Offer discounts or loyalty perks for customers who switch from month-to-month to 1- or 2-year plans.
+-   Promote Long-Term Contracts : Offer discounts or loyalty perks for customers who switch from month-to-month to 1- or 2-year plans.
 
-- Introduce Tiered Pricing Models : Align pricing with usage patterns and customer segments to provide more value at lower perceived cost.
-- Improve Onboarding for New Customers : Implement welcome programs, personalized setup guides, and first-30-day follow-up calls to reduce early churn.
+-   Introduce Tiered Pricing Models : Align pricing with usage patterns and customer segments to provide more value at lower perceived cost.
+-   Improve Onboarding for New Customers : Implement welcome programs, personalized setup guides, and first-30-day follow-up calls to reduce early churn.
 - 	Upsell Value-Add Services : Bundle services like online security, tech support, or streaming to increase stickiness and engagement.
 - 	Target At-Risk Segments Proactively: Use churn risk scores from your model to send retention offers or personalized support to high-risk customers.
 - 	Enhance Service Quality for DSL Users : Migrate legacy customers to higher-speed options like fiber with promotional pricing or device upgrades.
@@ -120,8 +120,24 @@ Customer churn is a significant issue in the telecom industry. Losing existing c
 
 ---
 
-## Author
+##  Author & Acknowledgment
+ Shaik Mayeenuddin
+ Business Analyst | Data & Process Optimization
+ Pursuing a Master’s in Data Science (AI & ML) Student
+🔗 https://www.linkedin.com/in/shaikmayeenuddin
 
-**Shaik Mayeenuddin**  
-Business Analyst | Data Analytics | AI & ML Student  
-🔗 [LinkedIn](https://www.linkedin.com/in/shaikmayeenuddin) | [GitHub](https://github.com/Shaikmayeenuddin786)
+### This project demonstrates my complete end-to-end capability—from data ingestion and cleaning, through ETL pipelines, modeling, and dashboarding, to actionable business insights. I architected, modeled, validated, visualized, and strategically interpreted the data throughout.
+
+- **Data Engineering & ETL** – Built SQL-import pipelines , (Power BI, Python) for real-time insights  
+- **Data Cleaning & Modeling** – Processed and stored 50K+ records using Pandas, NumPy, and robust normalization techniques  
+- **Analytical Modeling** – Developed Random Forest churn-prediction model with 85% validation accuracy  
+- **Dashboards & Visualization** – Created five cross-functional Power BI dashboards featuring KPI slicers, bookmarks, and custom UX  
+- **Strategic Insights & Recommendations** – Presented actionable data findings to senior leadership (140+ stakeholders) to drive retention, inventory, and content strategy  
+- **Performance Monitoring & Automation** – Implemented real-time alerting and monitoring using Power BI Service, SQL jobs, and Kubernetes for pipeline status
+
+
+
+
+ This project is built upon the foundational work by **Pivotalstats** . 
+ I am grateful for the analytical insights shared through their tutorials
+ credit : www.youtube.com/@pivotalstats
