@@ -69,7 +69,8 @@ By predicting who’s likely to leave, and understanding their reasons, teams ca
 
 ---
 # Top 10 Churn Reasons – ( Insights from Churn Analysis Projects):
-**(Prioritized key factors driving churn, highlighting areas for targeted action)**
+### (Prioritized key factors driving churn, highlighting areas for targeted action)
+
 
 ## Sorted by Impact Priority
 - **High Monthly Charges:** Customers paying higher-than-average fees often leave due to perceived lack of value or pricing dissatisfaction.
@@ -84,7 +85,7 @@ By predicting who’s likely to leave, and understanding their reasons, teams ca
 - **No Paperless Billing or AutoPay:** Indicates lower engagement or trust, often a churn signal.
 
 # _____________________________________
-# Offered Recommended Solutions to Sales & Marketting Team to Reduce Churn significantly:
+# Offered Recommended Solutions to Sales & Marketting and Leadership team to Reduce Churn significantly:
 
 - **Target At-Risk Segments Proactively:** Use churn risk scores to send retention offers or personalized support to high-risk customers.
 - **Promote LongTerm Contracts:** Offer discounts or loyalty perks for customers who switch from month-to-month to 1- or 2-year plans.
