@@ -2,6 +2,7 @@
 
 
 
+
 ## Project Overview
 
 This project aims to analyze telecom customer behavior and predict churn using machine learning, SQL, and Power BI. The goal is to help telecom companies identify at-risk customers and take proactive steps to improve retention.
@@ -23,6 +24,69 @@ By predicting who’s likely to leave, and understanding their reasons, teams ca
 - Analyze churn patterns across age, gender, state, services, contract type, and more.
 - Deliver actionable insights via a Power BI dashboard.
 - Enable leadership teams to track churn KPIs in real time.
+
+---
+
+## Why this project
+This project demonstrates an end-to-end ML deployment: 
+data → model → API → containerized service.
+It’s built for real-world decisioning (risk segmentation, retention revenue estimation, actionable reasons per customer)
+
+#  A Dockerized FastAPI service that loads a trained Random Forest churn model, returns batch predictions with probabilities, risk levels, business summary metrics, and human-readable key factors.
+
+**Caption:** Model trained offline (Jupyter) → artifacts saved → FastAPI loads artifacts → Docker container serves REST endpoint → Swagger / PowerShell / Power BI call the endpoint for live scoring.
+
+## Features
+- Batch inference via `/predict` (accepts multiple customer records)
+- Per-customer: prediction, probability, risk level, and key factors
+- Business summary: churn rate, churn count, retention revenue potential
+- Swagger UI documentation (auto-generated)
+- Dockerized for easy local or cloud deployment
+
+
+---
+
+# Start-to-end pipeline (concise steps)
+1. **Data collection** — gather raw customer/usage, billing, and interaction data.  
+2. **Exploration & cleaning** — EDA, missing value handling, consistent naming, save training snapshot.  
+3. **Feature engineering** — tenure, averages, contract flags, payment method encodings.  
+4. **Train & validate** — model selection (Random Forest), cross-validation, calibration if needed.  
+5. **Save artifacts** — model (`.pkl`), encoders, feature list, metadata.  
+6. **Build service** — FastAPI `predict` endpoint with safe preprocessing.  
+7. **Containerize** — Dockerfile + build image.  
+8. **Local test** — Swagger, PowerShell, batch requests.  
+9. **Deploy** — API using FastAPI + Docker
+
+---
+
+## Repository structure
+telecom-churn/
+├── api/
+│ ├── main.py # FastAPI app (predict endpoint)
+│ ├── requirements.txt
+├── data/
+│ ├── 01_raw_source/customer_data_original.csv
+│ └── 02_current_input/PredictionData.xlsx
+├── python/
+│ └── churn_ml_model.ipynb # training & preprocessing
+│ └── score.py
+├── model/
+│  ├── churn_model.pkl
+│  └── label_encoders.pkl
+├── Dockerfile
+
+
+
+---
+## progression
+
+Layer 1: Power BI — insight discovery & business storytelling
+Layer 2: API — production-grade ML inference
+
+“I intentionally kept the Power BI dashboard and the churn prediction API decoupled.
+This ensured demo reliability, avoided unnecessary cloud costs, and kept the architecture clean.
+If required, the API can be integrated into Power BI using DirectQuery or REST, but for portfolio and interview purposes, separation was the most practical design choice.”
+
 
 ---
 
