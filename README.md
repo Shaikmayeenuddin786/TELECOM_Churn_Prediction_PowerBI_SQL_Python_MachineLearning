@@ -32,9 +32,9 @@ This project demonstrates an end-to-end ML deployment:
 data → model → API → containerized service.
 It’s built for real-world decisioning (risk segmentation, retention revenue estimation, actionable reasons per customer)
 
-#  A Dockerized FastAPI service that loads a trained Random Forest churn model, returns batch predictions with probabilities, risk levels, business summary metrics, and human-readable key factors.
+##  A Dockerized FastAPI service that loads a trained Random Forest churn model, returns batch predictions with probabilities, risk levels, business summary metrics, and human-readable key factors.
 
-**Caption:** Model trained offline (Jupyter) → artifacts saved → FastAPI loads artifacts → Docker container serves REST endpoint → Swagger / PowerShell / Power BI call the endpoint for live scoring.
+Model trained offline (Jupyter) → artifacts saved → FastAPI loads artifacts → Docker container serves REST endpoint → Swagger / PowerShell / Power BI call the endpoint for live scoring.
 
 ## Features
 - Batch inference via `/predict` (accepts multiple customer records)
